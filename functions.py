@@ -1,8 +1,12 @@
 def add_two_integers(a, b):
-    pass
+    return a + b
 
 def is_integer_a_greater_than_integer_b(a, b):
-    pass
+    if a > b:
+        return True
+    else:
+        return False
 
 def say_hello(name):
-    pass
+    return "Hello, " + name + "!"
+    
